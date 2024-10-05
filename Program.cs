@@ -44,7 +44,7 @@ System.Console.WriteLine("======================================================
     System.Console.WriteLine(f);
  }
 
- //File.WriteAllLines("text/todasAsLinhasFormatada.txt",todasAsLinhasFormatada);
+ File.WriteAllLines("text/todasAsLinhasFormatada.txt",todasAsLinhasFormatada);
 
 
 
