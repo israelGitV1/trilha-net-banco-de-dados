@@ -1,0 +1,1 @@
+INSERT INTO Clientes VALUES ('Leota','Roberts','email@email.com',0,'2011-Dec-23 12:00')

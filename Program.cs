@@ -30,10 +30,10 @@ string[] todasAsLinhas = File.ReadAllLines("text/textSql.txt");
      string dataTimeFormatada;
      if( int.Parse(dataTime[2]) >= 10)
       {
-        dataTimeFormatada = $"{dataTime[2]} {dataTime[0]} {dataTime[1]} {dataTime[3]}";
+        dataTimeFormatada = $"{dataTime[2]}-{dataTime[0]}-{dataTime[1]} {dataTime[3]}";
       }else
         {
-          dataTimeFormatada = $"{dataTime[3]} {dataTime[0]}  {dataTime[2]} {dataTime[4]}";
+          dataTimeFormatada = $"{dataTime[3]}-{dataTime[0]}-{dataTime[2]} {dataTime[4]}";
         }
      todasAsLinhasFormatada[i] = $"{_split[0]}'{_split[1]}'{_split[2]}'{_split[3]}'{_split[4]}'{_split[5]}'{_split[6]}'{dataTimeFormatada}'{_split[8]}";
  }
@@ -44,7 +44,7 @@ System.Console.WriteLine("======================================================
     System.Console.WriteLine(f);
  }
 
- File.WriteAllLines("text/todasAsLinhasFormatada.txt",todasAsLinhasFormatada);
+ //File.WriteAllLines("text/todasAsLinhasFormatada.txt",todasAsLinhasFormatada);
 
 
 
