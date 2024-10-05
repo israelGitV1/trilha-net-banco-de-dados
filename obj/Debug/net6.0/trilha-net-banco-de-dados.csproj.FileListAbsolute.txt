@@ -1,0 +1,15 @@
+/home/israel/Development/trilha-net-banco-de-dados/bin/Debug/net6.0/trilha-net-banco-de-dados
+/home/israel/Development/trilha-net-banco-de-dados/bin/Debug/net6.0/trilha-net-banco-de-dados.deps.json
+/home/israel/Development/trilha-net-banco-de-dados/bin/Debug/net6.0/trilha-net-banco-de-dados.runtimeconfig.json
+/home/israel/Development/trilha-net-banco-de-dados/bin/Debug/net6.0/trilha-net-banco-de-dados.dll
+/home/israel/Development/trilha-net-banco-de-dados/bin/Debug/net6.0/trilha-net-banco-de-dados.pdb
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.csproj.AssemblyReference.cache
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.GeneratedMSBuildEditorConfig.editorconfig
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.AssemblyInfoInputs.cache
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.AssemblyInfo.cs
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.csproj.CoreCompileInputs.cache
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.dll
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/refint/trilha-net-banco-de-dados.dll
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.pdb
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/trilha-net-banco-de-dados.genruntimeconfig.cache
+/home/israel/Development/trilha-net-banco-de-dados/obj/Debug/net6.0/ref/trilha-net-banco-de-dados.dll

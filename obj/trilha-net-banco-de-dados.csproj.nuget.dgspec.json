@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/israel/Development/trilha-net-banco-de-dados/trilha-net-banco-de-dados.csproj": {}
+  },
+  "projects": {
+    "/home/israel/Development/trilha-net-banco-de-dados/trilha-net-banco-de-dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/israel/Development/trilha-net-banco-de-dados/trilha-net-banco-de-dados.csproj",
+        "projectName": "trilha-net-banco-de-dados",
+        "projectPath": "/home/israel/Development/trilha-net-banco-de-dados/trilha-net-banco-de-dados.csproj",
+        "packagesPath": "/home/israel/.nuget/packages/",
+        "outputPath": "/home/israel/Development/trilha-net-banco-de-dados/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/israel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.425/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
