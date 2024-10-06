@@ -2,6 +2,7 @@
 
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using trilha_net_banco_de_dados.Models;
 
 string[] todasAsLinhas = File.ReadAllLines("text/textSql.txt");
 //System.Console.WriteLine(todasAsLinhas[0]);
@@ -23,28 +24,38 @@ string[] todasAsLinhas = File.ReadAllLines("text/textSql.txt");
 //   }
 
  string[] todasAsLinhasFormatada = new string[todasAsLinhas.Length];
- for(int i=0; i < todasAsLinhas.Length; i++)
+ ConvertDate dataMoth = new ConvertDate();
+ int lengthFormatacao = 10;//todasAsLinhas.Length; 
+
+
+ for(int i=0; i < lengthFormatacao; i++)
  {
      string[] _split = todasAsLinhas[i].Split("'");
      string[] dataTime = _split[7].Split(" ");
      string dataTimeFormatada;
+     int month = dataMoth.DateMonthStringForNumber(dataTime[0]); 
      if( int.Parse(dataTime[2]) >= 10)
       {
-        dataTimeFormatada = $"{dataTime[2]}-{dataTime[0]}-{dataTime[1]} {dataTime[3]}";
+        dataTimeFormatada = $"{dataTime[2]}-{month}-{dataTime[1]} {dataTime[3].Replace("AM","")}";
       }else
         {
-          dataTimeFormatada = $"{dataTime[3]}-{dataTime[0]}-{dataTime[2]} {dataTime[4]}";
+          dataTimeFormatada = $"{dataTime[3]}-{month}-{dataTime[2]} {dataTime[4].Replace("AM","")}";
         }
      todasAsLinhasFormatada[i] = $"{_split[0]}'{_split[1]}'{_split[2]}'{_split[3]}'{_split[4]}'{_split[5]}'{_split[6]}'{dataTimeFormatada}'{_split[8]}";
  }
 
-System.Console.WriteLine("============================================================================");
- foreach(string f in todasAsLinhasFormatada)
+System.Console.WriteLine("==============================Formatado==============================================");
+ for(int i = 0; i < lengthFormatacao; i++)
  {
-    System.Console.WriteLine(f);
+    System.Console.WriteLine(todasAsLinhasFormatada[i]);
+ }
+System.Console.WriteLine("===============================Normal=============================================");
+ for(int i = 0; i < lengthFormatacao; i++)
+ {
+    System.Console.WriteLine(todasAsLinhas[i]);
  }
 
- File.WriteAllLines("text/todasAsLinhasFormatada.txt",todasAsLinhasFormatada);
+ //File.WriteAllLines("text/todasAsLinhasFormatada.txt",todasAsLinhasFormatada);
 
 
 
